@@ -55,3 +55,17 @@
       types:
         Radiation: 15
         Piercing: 20
+
+- type: entity
+  id: BulletMagnum38
+  name: bullet (.38 magnum)
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 35
+  - type: StaminaDamageOnCollide
+    damage: 40
+

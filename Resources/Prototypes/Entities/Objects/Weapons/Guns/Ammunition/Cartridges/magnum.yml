@@ -86,3 +86,10 @@
         map: [ "enum.AmmoVisualLayers.Tip" ]
         color: "#65fe08"
 
+- type: entity
+  id: CartridgeMagnum38
+  name: cartridge (.38 magnum)
+  parent: BaseCartridgeMagnum
+  components:
+  - type: CartridgeAmmo
+    proto: BulletMagnum38
